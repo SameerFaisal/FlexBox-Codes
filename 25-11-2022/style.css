@@ -1,0 +1,47 @@
+
+.one{
+    height: 100px;
+    width: 100px;
+    background: black;
+    margin: 2px 2px 2px 2px;
+    
+}
+.two{
+    height: 100px;
+    width: 100px;
+    background: crimson;
+    margin: 2px 2px 2px 2px;
+    
+}
+.three{
+    height: 100px;
+    width: 100px;
+    background: purple;
+    margin: 2px 2px 2px 2px;
+    color:darkgreen;
+    display: flex;
+   
+   
+    
+}
+.four{
+    height: 100px;
+    width: 100px;
+    background: orangered;
+    margin: 2px 2px 2px 2px;
+    color: white;
+    
+}
+.parent{
+    display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+/* flex-flow: row wrap; */
+/* justify-content: space-around; */
+/* justify-content: center; */
+/* align-items: center; */
+align-content: stretch;
+/* gap: 10px; */
+gap: 10px 20px
+
+}
